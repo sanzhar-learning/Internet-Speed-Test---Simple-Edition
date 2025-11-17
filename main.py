@@ -3,12 +3,12 @@ import speedtest
 
 def bytes_to_mb(bits):
     size = round(bits / (8 * 1024 * 1024), 2)
-    return f"{size} Mpbs"
+    return f"{size} MBps"
 
 wifi = speedtest.Speedtest()
-print("Hello, user! This is Internet Speed Test by Sanzhar Tashbenbetov.")
+print("Hello, user! This is Internet Speed Test by Sanzhar Tashbenbetov (and Valeriy Pokrov).")
 print("Please enter your name below.")
-user_name = input()
+username = input()
 user_prompt = input("Type 'start' to start measuring. ")
 if user_prompt == "start":
     print("Getting download speed...")
