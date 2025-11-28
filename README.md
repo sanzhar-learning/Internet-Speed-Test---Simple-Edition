@@ -20,7 +20,7 @@
 
 ## Usage
 
-▶ [Watch demo video](https://raw.githubusercontent.com/sanzhar-learning/https://github.com/sanzhar-learning/Internet-Speed-Test---Simple-Edition/assets/showcase.mp4)
+▶ [Watch demo video](assets/showcase.gif)
 
 
 
@@ -41,15 +41,16 @@
 
 
 ## Project Structure
-my_project/
-├── .git/                 # Git repository (created automatically)
-├── .gitignore            # Files to ignore in Git
-├── README.md             # Project description
-├── requirements.txt      # Python dependencies
-├── main.py               # Main entry point
-├── data_utils.py
-├── location_utils.py
-└── assets              # Data files
+
+- my_project/
+- ├── .git/                 # Git repository (created automatically)
+- ├── .gitignore            # Files to ignore in Git
+- ├── README.md             # Project description
+- ├── requirements.txt      # Python dependencies
+- ├── main.py               # Main entry point
+- ├── data_utils.py
+- ├── location_utils.py
+- └── assets              # Data files
     └── showcase.mp4
     └── data.csv
     └── screen.png
